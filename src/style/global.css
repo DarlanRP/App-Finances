@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 93.75%;
+}
+
+body{
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--color-dark);
+
+    font-weight: normal;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+td img{
+    cursor: pointer;
+}
